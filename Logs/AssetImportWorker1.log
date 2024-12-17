@@ -1,0 +1,428 @@
+Unity Editor version:    2022.3.47f1 (88c277b85d21)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.6.1 (Build 23G93)
+Darwin version:          23.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/ayseelifcelik/Documents/GitHub/our-project-insallah-2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52028
+Successfully changed project path to: /Users/ayseelifcelik/Documents/GitHub/our-project-insallah-2
+/Users/ayseelifcelik/Documents/GitHub/our-project-insallah-2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8325287744]  Target information:
+
+Player connection [8325287744]  * "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3564515229 [EditorId] 3564515229 [Version] 1048832 [Id] OSXEditor(0,Ayse-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8325287744] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8325287744] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 9.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.47f1 (88c277b85d21)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ayseelifcelik/Documents/GitHub/our-project-insallah-2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.47f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002430 seconds.
+- Loaded All Assemblies, in  0.233 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.138 seconds
+Domain Reload Profiling: 372ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (91ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (138ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (111ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.359 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.393 seconds
+Domain Reload Profiling: 753ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (315ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (49.0 KB). Loaded Objects now: 3565.
+Memory consumption went from 127.1 MB to 127.0 MB.
+Total: 3.348458 ms (FindLiveObjects: 0.262500 ms CreateObjectMapping: 0.108583 ms MarkObjects: 2.917250 ms  DeleteObjects: 0.059625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9976.712250 seconds.
+  path: Assets/sky5X/custom_LensFlare/35mmMoonControl.psd
+  artifactKey: Guid(e4fd1cdecdf7fe04994c460b6b5cf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/custom_LensFlare/35mmMoonControl.psd using Guid(e4fd1cdecdf7fe04994c460b6b5cf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ce4e76feb07c55a968afe8f54d3f4048') in 0.083912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.675650 seconds.
+  path: Assets/sky5X/sky5X_light_settings/sky2_colorSettings.jpg
+  artifactKey: Guid(acd6528d87a986246ada3e39a8e47870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_light_settings/sky2_colorSettings.jpg using Guid(acd6528d87a986246ada3e39a8e47870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a27980629bc750990cbb7a7db42d133b') in 0.010151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/sky5X/sky5X_light_settings/sky5_colorSettings.jpg
+  artifactKey: Guid(2d66fdc9e9f0d0c4cb7642f57dd18250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_light_settings/sky5_colorSettings.jpg using Guid(2d66fdc9e9f0d0c4cb7642f57dd18250) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '51b42e93c84ed8fa4ccb8424bdce09fc') in 0.006983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/sky5X/sky5X_light_settings/sky3_colorSettings.jpg
+  artifactKey: Guid(07c8cfc7f3c355e44bf90871d9eec625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_light_settings/sky3_colorSettings.jpg using Guid(07c8cfc7f3c355e44bf90871d9eec625) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6dd20686907e115302509d72de34a0b1') in 0.004500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/sky5X/sky5X_light_settings/sky4_colorSettings.jpg
+  artifactKey: Guid(ba33c6c0661825b4db3305bfd6599fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_light_settings/sky4_colorSettings.jpg using Guid(ba33c6c0661825b4db3305bfd6599fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '96934708543053342c3a9b5b8b405b49') in 0.004000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.973531 seconds.
+  path: Assets/sky5X/sky5X_skyboxes/sky5X2.mat
+  artifactKey: Guid(e9705e00f62f62849b89fc9fd55aa0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_skyboxes/sky5X2.mat using Guid(e9705e00f62f62849b89fc9fd55aa0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '260b39348c045ef6ab215812003a6d82') in 0.185666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sky5X/sky5X_skyboxes/sky5X5.mat
+  artifactKey: Guid(d07d2172e76d3fa429e80a14d2ae3616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_skyboxes/sky5X5.mat using Guid(d07d2172e76d3fa429e80a14d2ae3616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e6bd3a80d24992819172713153d9c2dc') in 0.006055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 10.109812 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX51+y.png
+  artifactKey: Guid(a88bc1d48e8ad1141a7f5c7252a63f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX51+y.png using Guid(a88bc1d48e8ad1141a7f5c7252a63f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9f475baefddebf3cd19a67c4cf8274fd') in 0.008974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX55+z.png
+  artifactKey: Guid(9ce6997595952254981513ca1a2ab39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX55+z.png using Guid(9ce6997595952254981513ca1a2ab39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6d6a2a576100035d52ee528ca67d2015') in 0.005342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX52+z.png
+  artifactKey: Guid(337833f88c399624fb07b195c10dc6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX52+z.png using Guid(337833f88c399624fb07b195c10dc6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2e4ae728f1c0018c2b06d5f2a1b9417e') in 0.005039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX54-x.png
+  artifactKey: Guid(b446043d575498d4fb9f8b8fbaea7134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX54-x.png using Guid(b446043d575498d4fb9f8b8fbaea7134) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd2bd5bbd1fddb58b838e5feeea75ea9f') in 0.004889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX53+z.png
+  artifactKey: Guid(1b4e6cc33563f5a43bcb38d0b0a6c80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX53+z.png using Guid(1b4e6cc33563f5a43bcb38d0b0a6c80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ed6e18a80dc40b87698191b46f643041') in 0.003665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX53-z.png
+  artifactKey: Guid(2f457ab648d52c3438926569eff3903b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX53-z.png using Guid(2f457ab648d52c3438926569eff3903b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cd01f0c9110b0074f95511472f8e56b0') in 0.004242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX52-z.png
+  artifactKey: Guid(eb149b2caa0efbc46806952a3ab0862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX52-z.png using Guid(eb149b2caa0efbc46806952a3ab0862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '63f8ea52cc7fd37f2b8a7bbdb3e77c6c') in 0.003915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX54-z.png
+  artifactKey: Guid(4f15d8b16d6fda145a283b65e7594656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX54-z.png using Guid(4f15d8b16d6fda145a283b65e7594656) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e912424e6b26f0bd1eb0af74b343d0ce') in 0.004086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX53+y.png
+  artifactKey: Guid(9c15b007bc3e6a34f843295e48f9b10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX53+y.png using Guid(9c15b007bc3e6a34f843295e48f9b10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f926105631318f1a63e80ae0c8969ec6') in 0.003790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX51-x.png
+  artifactKey: Guid(610d6985ab90c9d43895bfcf1edc1e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX51-x.png using Guid(610d6985ab90c9d43895bfcf1edc1e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7bda9afd171b84167bdaac19e4e76c00') in 0.003416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX51-z.png
+  artifactKey: Guid(5df3a5da4b9409d4e8dcfcb5a7f2efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX51-z.png using Guid(5df3a5da4b9409d4e8dcfcb5a7f2efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '118c3942e99d5c80c0800176ef343eb3') in 0.003337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX52+y.png
+  artifactKey: Guid(7b732c99b3c5a79469b9ae07d0032abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX52+y.png using Guid(7b732c99b3c5a79469b9ae07d0032abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54b9c3eee5eaeddf50896ece09a87cf6') in 0.003421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX52-y.png
+  artifactKey: Guid(b5ed0d4f1b163d644bb5daa3cb634dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX52-y.png using Guid(b5ed0d4f1b163d644bb5daa3cb634dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bb55c57dd230b303d893096c1fe2b9ad') in 0.004303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX51-y.png
+  artifactKey: Guid(25656bb4bdba9d74fbdcec086c36da54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX51-y.png using Guid(25656bb4bdba9d74fbdcec086c36da54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aa4a9cabbe4a0f02c42ce46b16616d0c') in 0.005239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX53-y.png
+  artifactKey: Guid(b7cd9fbb5ae5e7a4bad1091bd6724b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX53-y.png using Guid(b7cd9fbb5ae5e7a4bad1091bd6724b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bc766958e6a2fd6b6f96723b2ab27056') in 0.003375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.708160 seconds.
+  path: Assets/sky5X/sky5X_skyboxes/sky5X4.mat
+  artifactKey: Guid(13fde35df00f2384598d84d32a7bacd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_skyboxes/sky5X4.mat using Guid(13fde35df00f2384598d84d32a7bacd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b996e81c2276be689212656e28a1d717') in 0.015632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/sky5X/sky5X_skyboxes/sky5X5.mat
+  artifactKey: Guid(d07d2172e76d3fa429e80a14d2ae3616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_skyboxes/sky5X5.mat using Guid(d07d2172e76d3fa429e80a14d2ae3616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '450cb81198f24e44768046b61b0ecdfa') in 0.004574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
