@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "our-project-insallah-2.sln"
+    "dotnet.defaultSolution": "our-project.sln"
 }

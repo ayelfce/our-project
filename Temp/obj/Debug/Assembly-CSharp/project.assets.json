@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ayseelifcelik/Documents/GitHub/our-project-insallah-2/Assembly-CSharp.csproj",
+      "projectUniqueName": "/Users/ayseelifcelik/Desktop/our-project/Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "/Users/ayseelifcelik/Documents/GitHub/our-project-insallah-2/Assembly-CSharp.csproj",
+      "projectPath": "/Users/ayseelifcelik/Desktop/our-project/Assembly-CSharp.csproj",
       "packagesPath": "/Users/ayseelifcelik/.nuget/packages/",
-      "outputPath": "/Users/ayseelifcelik/Documents/GitHub/our-project-insallah-2/Temp/obj/Debug/Assembly-CSharp/",
+      "outputPath": "/Users/ayseelifcelik/Desktop/our-project/Temp/obj/Debug/Assembly-CSharp/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ayseelifcelik/.nuget/NuGet/NuGet.Config"
