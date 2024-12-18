@@ -11,6 +11,7 @@ public class PlayerAnimator : MonoBehaviour
 
     private void Awake() {
         animator = GetComponent<Animator>();
+        animator.applyRootMotion = false;
     }
 
     private void Update() {
