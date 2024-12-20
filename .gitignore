@@ -1,9 +1,6 @@
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
+Library/
+Temp/
+Obj/
 Logs/
-UserSettings/
-MemoryCaptures/
+Build/
 Packages/com.unity.burst/
-.DS_Store
